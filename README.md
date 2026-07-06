@@ -74,15 +74,28 @@
 
 ---
 
-### 📊 GitHub Stats
+### 🧩 Skill Icons
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&theme=radical&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=13mayankjoshi13&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,react,nextjs,flask,nodejs,html,css,git,github,vscode&theme=dark" />
 </p>
 
+---
+
+### 📈 Live Profile Badges
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=13mayankjoshi13&theme=radical&hide_border=true" />
+  <img src="https://img.shields.io/github/followers/13mayankjoshi13?label=Followers&style=for-the-badge&color=8A2BE2" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/13mayankjoshi13&label=Public%20Repos&query=$.public_repos&style=for-the-badge&color=00F7FF" />
+  <img src="https://img.shields.io/github/stars/13mayankjoshi13?label=Total%20Stars&style=for-the-badge&color=FFD700&affiliations=OWNER" />
+</p>
+
+---
+
+### 📊 Contribution Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=13mayankjoshi13&theme=react-dark&hide_border=true" />
 </p>
 
 ---
@@ -94,24 +107,6 @@
 </p>
 
 > ⚠️ The snake image only appears **after** you run the GitHub Action below once (see setup steps).
-
----
-
-### 🌌 3D Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/13mayankjoshi13/13mayankjoshi13/output/profile-3d-contrib/profile-night-rainbow.svg" />
-</p>
-
-> ⚠️ Needs a separate GitHub Action run once (see setup steps).
-
----
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=13mayankjoshi13&theme=radical&no-frame=true&row=1&column=7" />
-</p>
 
 ---
 
