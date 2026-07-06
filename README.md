@@ -114,11 +114,12 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **[IPL-2024-Data-Analytics-ML-DL-Model](https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model)** | Explores IPL 2024 data — matches, runs, wickets, averages, strike rates — using data science techniques to analyze player performance | Jupyter Notebook, Python |
-| **[advanced_gesture_fighting_game](https://github.com/13mayankjoshi13/advanced_gesture_fighting_game)** | A fighting game controlled via hand gestures | Python |
-| **[My-Portfolio](https://github.com/13mayankjoshi13/My-Portfolio)** | Personal portfolio website | HTML/CSS/JS |
-| **[Poshan-Pahad](https://github.com/13mayankjoshi13/Poshan-Pahad)** | Nutrition/health-focused project | TypeScript |
-| **[E-Commerce_Price_Comparison](https://github.com/13mayankjoshi13/E-Commerce_Price_Comparison)** | Compares product prices across e-commerce platforms | Python |
+| **[IPL-2024-Data-Analytics-ML-DL-Model](https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model)** | Explores IPL 2024 data — matches, runs, wickets, averages, strike rates — using ML/DL to analyze player performance and predict outcomes | Jupyter Notebook, Python |
+| **[UPI_FRAUD_DETECTION](https://github.com/13mayankjoshi13/UPI_FRAUD_DETECTION)** | Machine learning model to detect fraudulent UPI transactions | Python |
+| **[ET-Context-Lens--Multiagent-system](https://github.com/13mayankjoshi13/ET-Context-Lens--Multiagent-system)** | A multi-agent AI system for contextual analysis | HTML, Python |
+| **[Assistive_Glove_Device](https://github.com/13mayankjoshi13/Assistive_Glove_Device)** | Hardware-based assistive device project | — |
+| **[advanced_gesture_fighting_game](https://github.com/13mayankjoshi13/advanced_gesture_fighting_game)** | A fighting game controlled entirely through hand gestures | Python |
+| **[gesture_game_web](https://github.com/13mayankjoshi13/gesture_game_web)** | Web-deployed version of the gesture-controlled boxing game | Python, Flask |
 
 ---
 
