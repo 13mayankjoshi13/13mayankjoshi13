@@ -86,7 +86,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/13mayankjoshi13?label=Followers&style=for-the-badge&color=8A2BE2" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/13mayankjoshi13&label=Public%20Repos&query=$.public_repos&style=for-the-badge&color=00F7FF" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/13mayankjoshi13&label=Public%20Repos&query=public_repos&style=for-the-badge&color=00F7FF" />
   <img src="https://img.shields.io/github/stars/13mayankjoshi13?label=Total%20Stars&style=for-the-badge&color=FFD700&affiliations=OWNER" />
 </p>
 
@@ -107,6 +107,27 @@
 </p>
 
 > ⚠️ The snake image only appears **after** you run the GitHub Action below once (see setup steps).
+
+---
+
+### 💼 Experience
+
+| Role | Organization | Duration |
+|---|---|---|
+| Google Gemini Student Ambassador | Google (Internship) | Aug 2025 – Present |
+| Intern | Infosys Springboard (Internship) | Nov 2025 – Jan 2026 |
+| Internshala Student Partner | Internshala | Jun 2025 – Aug 2025 |
+| Internship Trainee | YBI Foundation (Internship) | Feb 2025 – Mar 2025 |
+
+---
+
+### 📜 Licenses & Certifications
+
+- **5-Day AI Agents Intensive Course with Google** — Kaggle (Dec 2025)
+- **Microsoft AI Skill Fest** — Microsoft (May 2025)
+- **Microsoft Certified: Azure AI Fundamentals** — Microsoft (Feb 2025)
+- **Introduction to Modern AI** — Cisco (Dec 2024)
+- **Python Essentials** — Cisco (Dec 2024)
 
 ---
 
