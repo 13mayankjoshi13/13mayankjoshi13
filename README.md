@@ -86,7 +86,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/13mayankjoshi13?label=Followers&style=for-the-badge&color=8A2BE2" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/13mayankjoshi13&label=Public%20Repos&query=public_repos&style=for-the-badge&color=00F7FF" />
+  <img src="https://img.shields.io/badge/Public%20Repos-14-00F7FF?style=for-the-badge" />
   <img src="https://img.shields.io/github/stars/13mayankjoshi13?label=Total%20Stars&style=for-the-badge&color=FFD700&affiliations=OWNER" />
 </p>
 
