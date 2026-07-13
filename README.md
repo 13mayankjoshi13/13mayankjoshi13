@@ -19,7 +19,7 @@
 - 🔭 Working on **automation projects** — pipelines involving AI-generated content, TTS, and video processing
 - 🧠 Exploring AI/ML: RAG pipelines, LangChain/LangGraph, transformer internals, and prompt engineering
 - 🛠️ Building **Toolbox Ultimate** — a multi-tool web app (AI answer generator, plagiarism checker, video downloader, PDF tools)
-- 🌱 Strengthening DSA fundamentals (Striver's A2Z sheet) alongside Java and C++
+- 🌱 Strengthening DSA fundamentals alongside Java, Python and C++
 - ⚡ Interested in full-stack development, low-level programming, and building automated systems end-to-end
 
 ---
