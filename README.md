@@ -17,9 +17,9 @@
 ### 👨‍💻 About Me
 
 - 🔭 Working on **automation projects** — pipelines involving AI-generated content, TTS, and video processing
-- 🏢 Currently interning at **Ruhanix Solutions** — building their website, Android APK, and mobile app
+- 🏢 Currently interning at **Ruhanix Solutions** — building their website, Android/iOS app (via Expo), and admin dashboard
 - 🧠 Exploring AI/ML: RAG pipelines, LangChain/LangGraph, transformer internals, and prompt engineering
-- 🛠️ Building **Toolbox Ultimate** — a multi-tool web app (AI answer generator, plagiarism checker, video downloader, PDF tools)
+- 🛠️ Building **Toolbox Ultimate** — a multi-tool web app (AI answer generator, plagiarism checker, video downloader, PDF tools), for the students
 - 🌱 Strengthening DSA fundamentals alongside Java, Python and C++
 - ⚡ Recently exposed to PHP, XAMPP, and Expo Go through hands-on production work
 
