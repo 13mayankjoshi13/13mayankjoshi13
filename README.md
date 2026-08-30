@@ -1,102 +1,88 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:312e81,100:06b6d4&text=Mayank%20Joshi&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Building%20intelligent%20systems%20for%20real-world%20problems.&descAlignY=60&descSize=17&descColor=cbd5e1&animation=fadeIn" />
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:EC4899&height=220&section=header&text=Mayank%20Joshi&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Automation%20Builder&descAlignY=58&descSize=18&descColor=F1F5F9&animation=fadeIn" />
+### `AI & ML Engineer in Progress` · `Full-Stack Developer` · `Problem Solver`
 
 <br/>
 
 <a href="https://www.linkedin.com/in/mayank-joshi-90627836a/">
-  <img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=38bdf8" />
 </a>
+&nbsp;
 <a href="mailto:mayankjoshi640@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EC4899?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=ef4444" />
 </a>
+&nbsp;
 <a href="https://www.youtube.com/@mayank13joshi">
-  <img src="https://img.shields.io/badge/YouTube-8B5CF6?style=for-the-badge&logo=youtube&logoColor=white" />
+  <img src="https://img.shields.io/badge/YouTube-111827?style=for-the-badge&logo=youtube&logoColor=ff0000" />
 </a>
+&nbsp;
 <a href="https://github.com/13mayankjoshi13">
-  <img src="https://img.shields.io/badge/GitHub-1E293B?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
 
 <br/>
 
-## 👋 About Me
+---
 
-I'm a full-stack developer and AI builder who enjoys turning ambitious ideas into working products — from ML models and multi-agent systems to hackathon-winning apps built under pressure. Currently interning at **Ruhanix Solutions** and working on **Google's Gemini Student Ambassador** program.
+## 🧠 About Me
 
-- 🔭 Currently building AI agent systems and full-stack web apps
-- 🌱 Deepening my DSA fundamentals with Striver's A2Z Sheet
-- 🏆 Semifinalist/Finalist at 3 national-level hackathons in 2026
-- 📫 Reach me at **mayankjoshi640@gmail.com**
+```text
+> whoami
+
+Mayank Joshi
+
+B.Tech CSE — Artificial Intelligence & Machine Learning
+Full-stack developer with a strong interest in AI systems,
+automation, intelligent applications and building things that
+solve actual problems.
+
+Currently exploring:
+→ AI Agents & Multi-Agent Systems
+→ Full-Stack Development
+→ Machine Learning & Deep Learning
+→ Automation & Intelligent Workflows
+```
 
 <br/>
 
-## 💼 Current Roles
+## ⚡ Current Status
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🟢 SDE Intern**
-Ruhanix Solutions
-`Jun 2026 – Present`
+### 🔭 BUILDING
+
+**Ruhanix Wholesale Marketplace**
+
+A cross-platform marketplace ecosystem with:
+
+* React Native + Expo
+* Node.js backend
+* Authentication system
+* Vendor & customer workflows
+* Inventory and order management
 
 </td>
+
 <td width="50%" valign="top">
 
-**🟢 Student Ambassador — Gemini**
-Google
-`Aug 2025 – Present`
+### 🧪 EXPLORING
 
-</td>
-</tr>
-</table>
+```text
+AI AGENTS        █████████░
+MULTI-AGENT      ████████░░
+RAG SYSTEMS      ████████░░
+FULL STACK       █████████░
+DSA              ███████░░░
+```
 
-<details>
-<summary><b>📜 Past Experience</b></summary>
-<br/>
-
-| Organization | Role | Period |
-|---|---|---|
-| Infosys Springboard | Intern | Nov 2025 |
-| Internshala | Training Partner | Jun 2025 |
-| YBI Foundation | Trainee | Feb 2025 |
-
-</details>
-
-<br/>
-
-## 🏆 Achievements
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-**IIT Kharagpur**
-KDSH 2026
-🥈 Semifinalist
-
-</td>
-<td align="center" width="25%">
-
-**IIT Roorkee**
-Hackathon 2026
-🏅 Finalist
-
-</td>
-<td align="center" width="25%">
-
-**ET AI Hackathon**
-2026
-🥈 Semifinalist
-
-</td>
-<td align="center" width="25%">
-
-**Uttarakhand**
-Eat Right Youth
-🎖️ State Representative
+**Current focus:**
+Building smarter systems, not just interfaces.
 
 </td>
 </tr>
@@ -104,70 +90,161 @@ Eat Right Youth
 
 <br/>
 
-## 🛠️ Tech Stack
+---
+
+## 🛠 Tech Arsenal
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,java,cpp,js,ts,php,mysql,sqlite&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,supabase&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=reactnative&theme=dark" />
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,php,sql&theme=dark" />
+
+### Development
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,html,css&theme=dark" />
+
+### AI / Data
+
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,opencv&theme=dark" />
+
+### Tools & Databases
+
+<img src="https://skillicons.dev/icons?i=mysql,supabase,sqlite,git,github,vscode,docker&theme=dark" />
+
+### Mobile
+
+<img src="https://skillicons.dev/icons?i=react,android&theme=dark" />
 
 </div>
 
 <br/>
 
-**AI / ML:** LangChain · LangGraph · RAG · XGBoost
-**Mobile:** React Native · Expo
-**Core:** Data Structures & Algorithms — Striver's A2Z Sheet
+---
+
+# 🚀 Selected Builds
+
+### 01 — IPL 2024 Intelligence
+
+> **Data Analytics · Machine Learning · Deep Learning**
+
+A machine learning and deep learning project analyzing IPL 2024 player performance and extracting meaningful insights from cricket data.
+
+🔗 [Explore Repository](https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model)
+
+---
+
+### 02 — UPI Fraud Detection
+
+> **Machine Learning · Classification · Financial Security**
+
+An ML-powered system designed to identify potentially fraudulent UPI transactions through intelligent classification.
+
+🔗 [Explore Repository](https://github.com/13mayankjoshi13/UPI_FRAUD_DETECTION)
+
+---
+
+### 03 — Context Lens
+
+> **Multi-Agent AI · Contextual Analysis · Intelligent Systems**
+
+A multi-agent AI system designed for deeper contextual analysis and intelligent task processing.
+
+🔗 [Explore Repository](https://github.com/13mayankjoshi13/ET-Context-Lens--Multiagent-system)
+
+---
+
+### 04 — Assistive Glove
+
+> **Hardware · Computer Vision · Accessibility**
+
+A technology-focused assistive device project combining intelligent interaction with real-world accessibility.
+
+🔗 [Explore Repository](https://github.com/13mayankjoshi13/Assistive_Glove_Device)
+
+---
+
+### 05 — Gesture Fighting Game
+
+> **Computer Vision · Hand Tracking · Interactive Systems**
+
+A fighting game controlled using real-time hand gestures.
+
+🔗 [Explore Repository](https://github.com/13mayankjoshi13/advanced_gesture_fighting_game)
+
+---
+
+### 06 — Gesture Game Web
+
+> **Flask · Computer Vision · Web Deployment**
+
+A web-based implementation of gesture-controlled gameplay.
+
+🔗 [Explore Repository](https://github.com/13mayankjoshi13/gesture_game_web)
 
 <br/>
 
-## 🚀 Featured Projects
+---
 
-| Project | Description | Link |
-|---|---|---|
-| **IPL 2024 Data Analytics (ML/DL)** | Player-performance analytics model built on IPL 2024 data | [Repo](https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model) |
-| **UPI Fraud Detection** | ML classifier for flagging fraudulent UPI transactions | [Repo](https://github.com/13mayankjoshi13/UPI_FRAUD_DETECTION) |
-| **ET Context Lens** | Multi-agent AI system for contextual news/data analysis | [Repo](https://github.com/13mayankjoshi13/ET-Context-Lens--Multiagent-system) |
-| **Assistive Glove Device** | Hardware-based assistive tech device | [Repo](https://github.com/13mayankjoshi13/Assistive_Glove_Device) |
-| **Gesture Fighting Game** | Fighting game controlled entirely via hand gestures | [Repo](https://github.com/13mayankjoshi13/advanced_gesture_fighting_game) |
-| **Gesture Game (Web)** | Flask-powered web version of the gesture game | [Repo](https://github.com/13mayankjoshi13/gesture_game_web) |
-
-<br/>
-
-## 🎓 Certifications
+## 🏆 Highlights
 
 <div align="center">
 
-`Kaggle` 5-Day AI Agents Intensive Course with Google
-`Microsoft` AI Skill Fest
-`Microsoft` Azure AI Fundamentals
-`Cisco` Introduction to Modern AI
-`Cisco` Python Essentials
+| 🧠 | Achievement                | Result                              |
+| -- | -------------------------- | ----------------------------------- |
+| 🥈 | IIT Kharagpur — KDSH 2026  | **Semifinalist**                    |
+| 🏁 | IIT Roorkee Hackathon 2026 | **Finalist**                        |
+| 🤖 | ET AI Hackathon 2026       | **Semifinalist**                    |
+| 🌱 | Eat Right Youth Movement   | **Represented Amrapali University** |
 
 </div>
 
 <br/>
 
-## 📊 GitHub Stats
+---
 
-<div align="center">
+## 📜 Certifications
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=13mayankjoshi13&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+```text
+[ ✓ ]  5-Day AI Agents Intensive Course with Google — Kaggle
+[ ✓ ]  AI Skill Fest — Microsoft
+[ ✓ ]  Azure AI Fundamentals — Microsoft
+[ ✓ ]  Introduction to Modern AI — Cisco
+[ ✓ ]  Python Essentials — Cisco
+```
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=13mayankjoshi13&theme=tokyonight&hide_border=true&background=0D1117" />
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=8b5cf6" />
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=13mayankjoshi13&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakLabel=FFFFFF" />
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=13mayankjoshi13&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=8b5cf6&area=true&hide_border=true" />
 
 </div>
 
 <br/>
 
+---
+
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" />
+### `Always learning. Always building. Always shipping.`
+
+<img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=for-the-badge&color=8b5cf6&label=PROFILE+VIEWS" />
+
+<br/><br/>
+
+**Let's build something intelligent.**
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,50:8B5CF6,100:6366F1&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:312e81,100:06b6d4&height=120&section=footer" />
