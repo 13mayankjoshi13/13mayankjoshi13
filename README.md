@@ -163,12 +163,12 @@ Eat Right Youth
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=13mayankjoshi13&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=13mayankjoshi13&theme=tokyonight&hide_border=true&background=0D1117" />
+<img src="https://streak-stats.demolab.com/?user=13mayankjoshi13&theme=tokyonight&hide_border=true&background=0D1117" />
 
 <br/>
 
