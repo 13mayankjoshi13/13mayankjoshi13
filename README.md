@@ -1,74 +1,173 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1a1a1a&height=150&text=MAYANK%20JOSHI&fontSize=44&fontColor=FFB000&fontAlignY=42&desc=DEPARTURES%20%C2%B7%20FULL-STACK%20DEVELOPER%20%C2%B7%20AUTOMATION%20BUILDER&descAlignY=66&descSize=15&descColor=FFB000" />
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/mayank-joshi-90627836a/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=FFB000" /></a>
-  <a href="mailto:mayankjoshi640@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=FFB000" /></a>
-  <a href="https://www.youtube.com/@mayank13joshi"><img src="https://img.shields.io/badge/YouTube-000000?style=flat-square&logo=youtube&logoColor=FFB000" /></a>
-  <a href="https://github.com/13mayankjoshi13"><img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=FFB000" /></a>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:EC4899&height=220&section=header&text=Mayank%20Joshi&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Automation%20Builder&descAlignY=58&descSize=18&descColor=F1F5F9&animation=fadeIn" />
 
-```ansi
-[1;38;5;214mDEPARTURES[0m                                          [2mMJ TERMINAL 1[0m
-[2m──────────────────────────────────────────────────────────────────[0m
-[1mTIME[0m     [1mDESTINATION[0m                  [1mGATE[0m       [1mSTATUS[0m
-[2m──────────────────────────────────────────────────────────────────[0m
-[38;5;214mJUN 26[0m   RUHANIX SOLUTIONS             SDE-INTERN  [1;38;5;214mBOARDING[0m
-[38;5;214mAUG 25[0m   GOOGLE                        GEMINI-SA   [1;38;5;214mONGOING[0m
-[38;5;214mNOV 25[0m   INFOSYS SPRINGBOARD           INTERN      [2mDEPARTED[0m
-[38;5;214mJUN 25[0m   INTERNSHALA                   PARTNER     [2mDEPARTED[0m
-[38;5;214mFEB 25[0m   YBI FOUNDATION                TRAINEE     [2mDEPARTED[0m
-```
+<br/>
 
-```ansi
-[1;38;5;214mPASSPORT — STAMPS COLLECTED[0m
-[2m──────────────────────────────────────────────────────────[0m
-✈  [38;5;214mIIT KHARAGPUR[0m   KDSH 2026            [1mSEMIFINALIST[0m
-✈  [38;5;214mIIT ROORKEE[0m     Hackathon 2026       [1mFINALIST[0m
-✈  [38;5;214m—[0m               ET AI Hackathon 2026 [1mSEMIFINALIST[0m
-✈  [38;5;214mUTTARAKHAND[0m     Eat Right Youth      [1mREPRESENTED AU[0m
-```
+<a href="https://www.linkedin.com/in/mayank-joshi-90627836a/">
+  <img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:mayankjoshi640@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EC4899?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.youtube.com/@mayank13joshi">
+  <img src="https://img.shields.io/badge/YouTube-8B5CF6?style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+<a href="https://github.com/13mayankjoshi13">
+  <img src="https://img.shields.io/badge/GitHub-1E293B?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-```ansi
-[1;38;5;214mCARGO MANIFEST[0m                                        [2mTECH STACK[0m
-[2m──────────────────────────────────────────────────────────────────[0m
-[38;5;214mLANGUAGES[0m     Python · Java · C++ · JavaScript · TypeScript · PHP · SQL
-[38;5;214mFULL-STACK[0m    React · Next.js · Node.js · Flask
-[38;5;214mMOBILE[0m        React Native · Expo
-[38;5;214mAI / ML[0m       LangChain · LangGraph · RAG · XGBoost
-[38;5;214mDATABASES[0m     Supabase · MySQL · SQLite
-[38;5;214mBACKEND[0m       PHP · XAMPP
-[38;5;214mCORE[0m          DSA — Striver's A2Z Sheet
-```
+</div>
 
----
+<br/>
 
-### 🛄 Flight Log (Selected Projects)
+## 👋 About Me
 
-| Flight | Project | Description |
+I'm a full-stack developer and AI builder who enjoys turning ambitious ideas into working products — from ML models and multi-agent systems to hackathon-winning apps built under pressure. Currently interning at **Ruhanix Solutions** and working on **Google's Gemini Student Ambassador** program.
+
+- 🔭 Currently building AI agent systems and full-stack web apps
+- 🌱 Deepening my DSA fundamentals with Striver's A2Z Sheet
+- 🏆 Semifinalist/Finalist at 3 national-level hackathons in 2026
+- 📫 Reach me at **mayankjoshi640@gmail.com**
+
+<br/>
+
+## 💼 Current Roles
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🟢 SDE Intern**
+Ruhanix Solutions
+`Jun 2026 – Present`
+
+</td>
+<td width="50%" valign="top">
+
+**🟢 Student Ambassador — Gemini**
+Google
+`Aug 2025 – Present`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📜 Past Experience</b></summary>
+<br/>
+
+| Organization | Role | Period |
 |---|---|---|
-| MJ-101 | [IPL-2024-Data-Analytics-ML-DL-Model](https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model) | ML/DL model analyzing IPL 2024 player performance |
-| MJ-102 | [UPI_FRAUD_DETECTION](https://github.com/13mayankjoshi13/UPI_FRAUD_DETECTION) | ML model classifying fraudulent UPI transactions |
-| MJ-103 | [ET-Context-Lens--Multiagent-system](https://github.com/13mayankjoshi13/ET-Context-Lens--Multiagent-system) | Multi-agent AI system for contextual analysis |
-| MJ-104 | [Assistive_Glove_Device](https://github.com/13mayankjoshi13/Assistive_Glove_Device) | Hardware-based assistive device |
-| MJ-105 | [advanced_gesture_fighting_game](https://github.com/13mayankjoshi13/advanced_gesture_fighting_game) | Fighting game controlled via hand gestures |
-| MJ-106 | [gesture_game_web](https://github.com/13mayankjoshi13/gesture_game_web) | Web-deployed version, built with Flask |
+| Infosys Springboard | Intern | Nov 2025 |
+| Internshala | Training Partner | Jun 2025 |
+| YBI Foundation | Trainee | Feb 2025 |
 
----
+</details>
 
-### 🎫 Boarding Passes (Certifications)
+<br/>
 
-| Issuer | Certification |
-|---|---|
-| Kaggle | 5-Day AI Agents Intensive Course with Google |
-| Microsoft | AI Skill Fest |
-| Microsoft | Azure AI Fundamentals |
-| Cisco | Introduction to Modern AI |
-| Cisco | Python Essentials |
+## 🏆 Achievements
 
----
+<table>
+<tr>
+<td align="center" width="25%">
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=flat-square&color=000000&label=VISITORS+LOGGED" />
-</p>
+**IIT Kharagpur**
+KDSH 2026
+🥈 Semifinalist
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a1a,100:000000&height=70&section=footer&text=NOW%20BOARDING%20%C2%B7%20NOT%20A%20TEMPLATE&fontSize=13&fontColor=FFB000&fontAlignY=60" />
+</td>
+<td align="center" width="25%">
+
+**IIT Roorkee**
+Hackathon 2026
+🏅 Finalist
+
+</td>
+<td align="center" width="25%">
+
+**ET AI Hackathon**
+2026
+🥈 Semifinalist
+
+</td>
+<td align="center" width="25%">
+
+**Uttarakhand**
+Eat Right Youth
+🎖️ State Representative
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,java,cpp,js,ts,php,mysql,sqlite&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,supabase&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=reactnative&theme=dark" />
+
+</div>
+
+<br/>
+
+**AI / ML:** LangChain · LangGraph · RAG · XGBoost
+**Mobile:** React Native · Expo
+**Core:** Data Structures & Algorithms — Striver's A2Z Sheet
+
+<br/>
+
+## 🚀 Featured Projects
+
+| Project | Description | Link |
+|---|---|---|
+| **IPL 2024 Data Analytics (ML/DL)** | Player-performance analytics model built on IPL 2024 data | [Repo](https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model) |
+| **UPI Fraud Detection** | ML classifier for flagging fraudulent UPI transactions | [Repo](https://github.com/13mayankjoshi13/UPI_FRAUD_DETECTION) |
+| **ET Context Lens** | Multi-agent AI system for contextual news/data analysis | [Repo](https://github.com/13mayankjoshi13/ET-Context-Lens--Multiagent-system) |
+| **Assistive Glove Device** | Hardware-based assistive tech device | [Repo](https://github.com/13mayankjoshi13/Assistive_Glove_Device) |
+| **Gesture Fighting Game** | Fighting game controlled entirely via hand gestures | [Repo](https://github.com/13mayankjoshi13/advanced_gesture_fighting_game) |
+| **Gesture Game (Web)** | Flask-powered web version of the gesture game | [Repo](https://github.com/13mayankjoshi13/gesture_game_web) |
+
+<br/>
+
+## 🎓 Certifications
+
+<div align="center">
+
+`Kaggle` 5-Day AI Agents Intensive Course with Google
+`Microsoft` AI Skill Fest
+`Microsoft` Azure AI Fundamentals
+`Cisco` Introduction to Modern AI
+`Cisco` Python Essentials
+
+</div>
+
+<br/>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=13mayankjoshi13&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=13mayankjoshi13&theme=tokyonight&hide_border=true&background=0D1117" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" />
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,50:8B5CF6,100:6366F1&height=120&section=footer" />
