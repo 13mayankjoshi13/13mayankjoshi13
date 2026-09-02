@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Neural Network Inspired Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&color=0:0A0E27,50:1A1F4E,100:2D1B69&height=200&section=header&text=⚡%20MAYANKJoshi%20⚡&fontSize=48&fontColor=00D4FF&fontAlignY=40&desc=AI%20%7C%20LangGraph%20%7C%20Multi-Agent%20Systems&descAlignY=62&descSize=16&descColor=7C3AED"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&color=0:0A0E27,50:1A1F4E,100:2D1B69&height=200&section=header&text=⚡%20MAYANK%20JOSHI%20⚡&fontSize=48&fontColor=00D4FF&fontAlignY=40&desc=AI%20%7C%20LangGraph%20%7C%20Multi-Agent%20Systems&descAlignY=62&descSize=16&descColor=7C3AED"/>
 
 <!-- Matrix-style animated banner -->
 <pre style="background: #0A0E27; color: #00D4FF; padding: 10px; border-radius: 8px; font-family: 'Courier New', monospace; border: 1px solid #7C3AED;">
