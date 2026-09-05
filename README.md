@@ -1,266 +1,182 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,45:A855F7,75:EC4899,100:F59E0B&height=190&section=header&text=MΛYΛNK%20JOSHI&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=FULL-STACK%20DEVELOPER%20%20%7C%20%20AI%2FML%20ENTHUSIAST&descAlignY=60&descSize=17&animation=fadeIn" width="100%" alt="Mayank Joshi header"/>
-
-<a href="https://github.com/13mayankjoshi13">
-  <img src="./assets/mayank-character.gif" width="270" alt="Animated developer illustration"/>
-</a>
-
-### `BUILD • LEARN • SHIP • REPEAT`
-
-**I turn ideas into practical web, mobile & AI-powered products.**
-
-<p>
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML-7C3AED?style=for-the-badge&logo=googlecolab&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FULL--STACK-2563EB?style=for-the-badge&logo=stackblitz&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MOBILE-DB2777?style=for-the-badge&logo=react&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AUTOMATION-F59E0B?style=for-the-badge&logo=robotframework&logoColor=white"/>
-</p>
-
-<a href="https://www.linkedin.com/in/mayank-joshi-90627836a/">LinkedIn</a> ·
-<a href="mailto:mayankjoshi640@gmail.com">Email</a> ·
-<a href="https://www.youtube.com/@mayank13joshi">YouTube</a> ·
-<a href="https://github.com/13mayankjoshi13">GitHub</a>
+<img src="./assets/hero-banner.svg" width="100%" alt="Mayank Joshi — Full-Stack Developer, AI & ML Enthusiast">
 
 </div>
 
----
+<br>
 
-## ✦ About Me
-
-I'm a **B.Tech CSE (AI & ML)** student who enjoys building things that move from **idea → prototype → usable product**.
-
-- 🎓 **4th Semester** — B.Tech CSE (AI & ML)
-- 🧩 Interested in **AI/ML, full-stack development, mobile apps & automation**
-- 🚀 Currently building and improving real-world software products
-- 🧠 Learning through projects, DSA, experiments and hackathons
-- ⚡ Motto: **Curiosity starts the build. Engineering finishes it.**
-
----
-
-## 🧭 What I'm Working On
+## About Me
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="58%" valign="top">
 
-### 🛍️ Ruhanix Solutions
-**SDE Intern · Jun 2026**
+I'm a developer from India, building toward a full-stack + AI specialization while studying at Amrapali University. I love creating web & mobile apps, exploring new technologies, and turning ideas into real products.
 
-Working on a wholesale marketplace connecting **traders, products, pricing, orders and customers**.
-
-`React Native` `Expo` `Node.js`  
-`PHP` `MySQL` `XAMPP`
+![Amrapali University](https://img.shields.io/badge/🎓_Amrapali_University-1E293B?style=flat-square&color=1E293B)
+![Full-Stack + AI](https://img.shields.io/badge/Focus-Full--Stack_+_AI-A855F7?style=flat-square)
+![GitHub](https://img.shields.io/badge/GitHub-13mayankjoshi13-38BDF8?style=flat-square&logo=github&logoColor=white)
 
 </td>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-### ✨ Google
-**Gemini Student Ambassador · Aug 2025**
-
-Exploring and promoting the **Gemini ecosystem** while growing through the developer community.
-
-`AI` `Community` `Developer`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 💻 Infosys Springboard
-**Intern · Nov 2025 – Jan 2026**
-
-Industry internship experience focused on software and technology.
-
-</td>
-<td width="50%" valign="top">
-
-### 🌱 Earlier
-**Internships / Partnerships**
-
-`Internshala` · `YBI Foundation`
+<img src="./assets/about-desk.svg" width="100%" alt="Desk illustration with a laptop, coffee, and a small plant">
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## 🏆 Highlights
+## Tech Stack
 
-<p align="center">
-<img src="https://img.shields.io/badge/KDSH%202026%20%7C%20IIT%20Kharagpur-Semifinalist-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/IIT%20Roorkee%20Hackathon%202026-Finalist-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ET%20AI%20Hackathon%202026-Semifinalist-EC4899?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Eat%20Right%20Youth%20%7C%20Uttarakhand-Represented%20AU-F59E0B?style=for-the-badge"/>
-</p>
+**🟡 Languages**
+<br>
+![C++](https://img.shields.io/badge/C%2B%2B-1E293B?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![Java](https://img.shields.io/badge/Java-1E293B?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
+![Python](https://img.shields.io/badge/Python-1E293B?style=for-the-badge&logo=python&logoColor=3776AB)
+![JavaScript](https://img.shields.io/badge/JavaScript-1E293B?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-1E293B?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![PHP](https://img.shields.io/badge/PHP-1E293B?style=for-the-badge&logo=php&logoColor=777BB4)
 
----
+**💗 Full-Stack & Mobile**
+<br>
+![React](https://img.shields.io/badge/React-EC4899?style=for-the-badge&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-EC4899?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-EC4899?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-EC4899?style=for-the-badge&logo=flask&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-EC4899?style=for-the-badge&logo=react&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-EC4899?style=for-the-badge&logo=expo&logoColor=white)
 
-## 🧰 Tech Stack
+**🔮 AI / ML**
+<br>
+![LangChain](https://img.shields.io/badge/LangChain-A855F7?style=for-the-badge&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-A855F7?style=for-the-badge&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-A855F7?style=for-the-badge&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-A855F7?style=for-the-badge&logoColor=white)
 
-### Languages
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,php" alt="Languages"/>
-</p>
+**🌊 Database & Infra**
+<br>
+![Supabase](https://img.shields.io/badge/Supabase-38BDF8?style=for-the-badge&logo=supabase&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-38BDF8?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-38BDF8?style=for-the-badge&logo=sqlite&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-38BDF8?style=for-the-badge&logo=xampp&logoColor=white)
 
-### Web · Backend · Mobile
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,flask,reactnative,expo" alt="Web backend and mobile"/>
-</p>
+**DSA** — Striver's A2Z Sheet
 
-### AI / ML
-<p>
-<img src="https://skillicons.dev/icons?i=python,tensorflow" alt="AI and ML"/>
-<br/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-111827?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-2563EB?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square&logoColor=white"/>
-</p>
+<br>
 
-### Database · Tools
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,sqlite,git,github,docker,vscode" alt="Database and tools"/>
-</p>
-
-> **DSA:** Striver's A2Z Sheet
-
----
-
-## 🚀 Featured Projects
+## GitHub Stats
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 🛒 Ruhanix Marketplace
-Wholesale marketplace for **Android, iOS & Web**, built around traders, buyers, products, pricing and orders.
-
-`React Native` · `Expo` · `Node.js` · `PHP` · `MySQL`
-
+<td width="55%" valign="top">
+<img src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&hide_border=true&bg_color=12142B&title_color=A855F7&icon_color=38BDF8&text_color=E2E8F0&ring_color=EC4899" width="100%" alt="Mayank's GitHub stats">
 </td>
-<td width="50%" valign="top">
-
-### 🏏 IPL 2024 Analytics
-Data analytics + ML/DL project exploring **IPL 2024 player performance**.
-
-<a href="https://github.com/13mayankjoshi13/IPL-2024-Data-Analytics-ML-DL-Model">View repository →</a>
-
+<td width="45%" valign="top">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=13mayankjoshi13&layout=donut&hide_border=true&bg_color=12142B&title_color=A855F7&text_color=E2E8F0" width="100%" alt="Mayank's most used languages">
 </td>
 </tr>
+</table>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=13mayankjoshi13&bg_color=12142B&color=E2E8F0&line=A855F7&point=EC4899&area=true&area_color=38BDF8&hide_border=true" width="100%" alt="Mayank's GitHub contribution activity graph">
+
+<sub>Live stats pulled from GitHub — no hand-typed numbers to go stale.</sub>
+
+<br>
+
+## Featured Projects
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 💳 UPI Fraud Detection
-Machine-learning model for classifying **fraudulent UPI transactions**.
+**🏪 Ruhanix Marketplace**
 
-<a href="https://github.com/13mayankjoshi13/UPI_FRAUD_DETECTION">View repository →</a>
+Wholesale marketplace for traders & buyers, built during my Ruhanix Solutions internship — website, admin dashboard, and an Android/iOS app.
 
-</td>
-<td width="50%" valign="top">
-
-### 🧠 ET Context Lens
-A **multi-agent AI system** designed for contextual analysis.
-
-<a href="https://github.com/13mayankjoshi13/ET-Context-Lens--Multiagent-system">View repository →</a>
+![React Native](https://img.shields.io/badge/React_Native-1E293B?style=flat-square)
+![PHP](https://img.shields.io/badge/PHP-1E293B?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-1E293B?style=flat-square)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🧤 Assistive Glove Device
-Hardware-based assistive technology project.
+**🔐 RuhanixAuth**
 
-<a href="https://github.com/13mayankjoshi13/Assistive_Glove_Device">View repository →</a>
+Authentication flow app for the Ruhanix platform, built with Expo Router.
+
+![React Native](https://img.shields.io/badge/React_Native-1E293B?style=flat-square)
+![Expo](https://img.shields.io/badge/Expo-1E293B?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-1E293B?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🎮 Gesture Game
-Hand-gesture controlled fighting game with a Flask web deployment.
+**📦 More Projects**
 
-<a href="https://github.com/13mayankjoshi13/advanced_gesture_fighting_game">Fighting Game →</a> ·
-<a href="https://github.com/13mayankjoshi13/gesture_game_web">Web Version →</a>
+IPL 2024 analytics, UPI fraud detection, a multi-agent AI system, and a couple of gesture-controlled games.
+
+![ML Models](https://img.shields.io/badge/ML_Models-1E293B?style=flat-square)
+![Games](https://img.shields.io/badge/Games-1E293B?style=flat-square)
+
+[View on GitHub →](https://github.com/13mayankjoshi13)
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## 📜 Certifications
+## Achievements & Currently Learning
 
-| Platform | Certification |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏆 Achievements
+
+| | |
 |:--|:--|
-| 🟣 **Kaggle** | 5-Day AI Agents Intensive Course with Google |
-| 🔵 **Microsoft** | AI Skill Fest |
-| 🔵 **Microsoft** | Azure AI Fundamentals |
-| 🔷 **Cisco** | Introduction to Modern AI |
-| 🔷 **Cisco** | Python Essentials |
+| Google | Gemini Student Ambassador (selected) |
+| Infosys Springboard | Internship |
+| IIT Kharagpur — KDSH 2026 | Semifinalist |
+| IIT Roorkee Hackathon 2026 | Finalist |
+| ET AI Hackathon 2026 | Semifinalist |
+| Eat Right Youth, Uttarakhand | Represented Amrapali University |
 
----
+</td>
+<td width="50%" valign="top">
 
-## 📈 GitHub
+### 📚 Currently Learning
 
-<div align="center">
+- Deep learning & AI — RAG pipelines, LangChain / LangGraph, transformer internals
+- Cloud & systems — AWS / GCP architecture
+- Automation — GitHub Actions
+- DSA — Striver's A2Z Sheet
 
-<a href="https://github.com/13mayankjoshi13">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=13mayankjoshi13&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=38BDF8&text_color=E5E7EB&ring_color=EC4899" alt="GitHub stats"/>
-</a>
-
-<a href="https://github.com/13mayankjoshi13">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=13mayankjoshi13&layout=compact&hide_border=true&bg_color=0D1117&title_color=F59E0B&text_color=E5E7EB" alt="Top languages"/>
-</a>
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=13mayankjoshi13&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub streak"/>
-
-</div>
-
----
-
-## 🧪 Build Philosophy
-
-<div align="center">
-
-**IDEA** → **RESEARCH** → **BUILD** → **DEBUG** → **SHIP** → **REPEAT**
+</td>
+</tr>
+</table>
 
 <br>
 
-> *“Don't wait for the perfect idea. Build the version that makes the next version possible.”*
-
-</div>
-
----
-
-## 🌐 Let's Connect
-
 <div align="center">
 
-<a href="https://www.linkedin.com/in/mayank-joshi-90627836a/">
-<img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:mayankjoshi640@gmail.com">
-<img src="https://img.shields.io/badge/Email-EC4899?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://www.youtube.com/@mayank13joshi">
-<img src="https://img.shields.io/badge/YouTube-EF4444?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
-<a href="https://github.com/13mayankjoshi13">
-<img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<img src="./assets/wave-divider.svg" width="100%" alt="">
 
-<br><br>
+## Connect with Me
 
-<img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views"/>
+Let's build something amazing together.
 
-<br><br>
+[![GitHub](https://img.shields.io/badge/GitHub-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/13mayankjoshi13)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayank-joshi-90627836a/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mayank13joshi)
+[![Email](https://img.shields.io/badge/Email-EC4899?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mayankjoshi640@gmail.com)
 
-### `KEEP BUILDING. KEEP SHIPPING. ✦`
+<img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=for-the-badge&color=A855F7&label=PROFILE+VIEWS" alt="Profile views">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,30:EC4899,65:A855F7,100:4F46E5&height=120&section=footer" width="100%" alt="Footer"/>
+<sub>Made with 💜 by Mayank Joshi</sub>
 
 </div>
