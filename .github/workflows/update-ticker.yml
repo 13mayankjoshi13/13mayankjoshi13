@@ -2,7 +2,7 @@ name: Update Live Cards
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # refreshes every 3 hours
+    - cron: "*/5 * * * *"   # every 5 minutes — GitHub's practical minimum for reliable scheduling
   workflow_dispatch: {}
 
 jobs:
