@@ -22,20 +22,20 @@ def fetch_events():
 def humanize(events):
     items = []
     seen = set()
+    print(f"Fetched {len(events)} events")
     for e in events:
         t = e["type"]
         repo = e["repo"]["name"].split("/")[-1]
         line = None
         if t == "PushEvent":
-            n = len(e["payload"].get("commits", []))
-            if n == 0:
-                continue
-            line = f"pushed {n} commit{'s' if n != 1 else ''} to {repo}"
+            line = f"pushed to {repo}"
         elif t == "CreateEvent" and e["payload"].get("ref_type") == "repository":
             line = f"created {repo}"
         elif t == "PullRequestEvent":
             action = e["payload"].get("action", "")
             line = f"{action} a pull request in {repo}"
+        elif t == "PullRequestReviewEvent":
+            line = f"reviewed a pull request in {repo}"
         elif t == "IssuesEvent":
             action = e["payload"].get("action", "")
             line = f"{action} an issue in {repo}"
@@ -45,6 +45,7 @@ def humanize(events):
             line = f"forked {repo}"
         elif t == "ReleaseEvent":
             line = f"published a release in {repo}"
+        print(f"  event: {t} on {repo} -> {line}")
         if line and line not in seen:
             seen.add(line)
             items.append(line)
@@ -88,7 +89,8 @@ def main():
     try:
         events = fetch_events()
         items = humanize(events)
-    except Exception:
+    except Exception as ex:
+        print(f"ERROR fetching/processing events: {ex}")
         items = ["live feed temporarily unavailable"]
     svg = build_svg(items)
     os.makedirs("images", exist_ok=True)
