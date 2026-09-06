@@ -1,0 +1,31 @@
+<svg width="900" height="56" viewBox="0 0 900 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#120E1E"/>
+      <stop offset="50%" stop-color="#1B1330"/>
+      <stop offset="100%" stop-color="#120E1E"/>
+    </linearGradient>
+    <linearGradient id="rfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#120E1E" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#120E1E" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="clip"><rect x="0" y="0" width="900" height="56" rx="12"/></clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="56" rx="12" fill="url(#tbg)"/>
+
+  <g clip-path="url(#clip)">
+    <text x="0" y="35.0" font-family="'Consolas','Courier New',monospace" font-size="15" fill="#38D6C2" letter-spacing="0.3">● starred novatorem     •••     ● starred OmniRoute     •••     ● starred novatorem     •••     ● starred OmniRoute
+      <animate attributeName="x" from="0" to="-428" dur="18s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <rect x="0" y="0" width="66" height="56" fill="#17112A" clip-path="url(#clip)"/>
+  <rect x="830" y="0" width="70" height="56" fill="url(#rfade)" clip-path="url(#clip)"/>
+  <rect x="0.5" y="0.5" width="899" height="55" rx="12" fill="none" stroke="#2c2444"/>
+
+  <circle cx="18" cy="28.0" r="4" fill="#8B5CF6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="30" y="32.0" font-family="'Segoe UI',sans-serif" font-size="10" fill="#6C6291" letter-spacing="1">LIVE</text>
+</svg>
