@@ -1,100 +1,95 @@
 """
-Generates a continuously-scrolling "Live Activity" ticker SVG,
-sourced from the user's real public GitHub events.
-Run inside GitHub Actions where GITHUB_TOKEN is available.
+Generates a vertical "Live Activity" list SVG, sourced from the user's
+real public GitHub events. Run inside GitHub Actions.
 """
-import os, json, urllib.request, datetime
+import os, json, urllib.request
 
 USERNAME = os.environ.get("GH_USERNAME", "13mayankjoshi13")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
+BG1, BG2 = "#120E1E", "#1B1330"
+VIOLET, TEAL = "#8B5CF6", "#38D6C2"
+TEXT, MUTED, BORDER = "#F1EAFB", "#9C90C4", "#2c2444"
+
 def fetch_events():
     req = urllib.request.Request(
-        f"https://api.github.com/users/{USERNAME}/events/public?per_page=30",
+        f"https://api.github.com/users/{USERNAME}/events/public?per_page=100",
         headers={"Authorization": f"bearer {TOKEN}", "Accept": "application/vnd.github+json"}
     )
-    with urllib.request.urlopen(req) as resp:
+    with urllib.request.urlopen(req, timeout=15) as resp:
         return json.load(resp)
 
 def humanize(events):
     items = []
+    seen = set()
     for e in events:
         t = e["type"]
         repo = e["repo"]["name"].split("/")[-1]
-        created = e["created_at"]
+        line = None
         if t == "PushEvent":
             n = len(e["payload"].get("commits", []))
             if n == 0:
                 continue
-            items.append(f"\u25CF pushed {n} commit{'s' if n != 1 else ''} to {repo}")
+            line = f"pushed {n} commit{'s' if n != 1 else ''} to {repo}"
         elif t == "CreateEvent" and e["payload"].get("ref_type") == "repository":
-            items.append(f"\u25CF created {repo}")
+            line = f"created {repo}"
         elif t == "PullRequestEvent":
             action = e["payload"].get("action", "")
-            items.append(f"\u25CF {action} a pull request in {repo}")
+            line = f"{action} a pull request in {repo}"
         elif t == "IssuesEvent":
             action = e["payload"].get("action", "")
-            items.append(f"\u25CF {action} an issue in {repo}")
+            line = f"{action} an issue in {repo}"
         elif t == "WatchEvent":
-            items.append(f"\u25CF starred {repo}")
+            line = f"starred {repo}"
         elif t == "ForkEvent":
-            items.append(f"\u25CF forked {repo}")
-        if len(items) >= 8:
+            line = f"forked {repo}"
+        elif t == "ReleaseEvent":
+            line = f"published a release in {repo}"
+        if line and line not in seen:
+            seen.add(line)
+            items.append(line)
+        if len(items) >= 6:
             break
     if not items:
-        items = ["\u25CF no recent public activity \u2014 check back soon"]
+        items = ["no recent public activity — check back soon"]
     return items
 
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 def build_svg(items):
-    W, H = 900, 56
-    text = "     \u2022\u2022\u2022     ".join(items)
-    full_text = text + "     \u2022\u2022\u2022     " + text  # duplicate for seamless loop
-    # rough width estimate for animation distance
-    approx_char_w = 8.4
-    seg_width = len(text) * approx_char_w
+    W = 900
+    row_h = 34
+    top_pad = 46
+    H = top_pad + row_h * len(items) + 20
 
-    svg = f'''<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">
+    parts = [f'''<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#120E1E"/>
-      <stop offset="50%" stop-color="#1B1330"/>
-      <stop offset="100%" stop-color="#120E1E"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="{BG1}"/><stop offset="100%" stop-color="{BG2}"/>
     </linearGradient>
-    <linearGradient id="rfade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#120E1E" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#120E1E" stop-opacity="1"/>
-    </linearGradient>
-    <clipPath id="clip"><rect x="0" y="0" width="{W}" height="{H}" rx="12"/></clipPath>
   </defs>
+  <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="url(#bgGrad)" stroke="{BORDER}"/>
 
-  <rect x="0" y="0" width="{W}" height="{H}" rx="12" fill="url(#tbg)"/>
-
-  <g clip-path="url(#clip)">
-    <text x="0" y="{H/2+7}" font-family="'Consolas','Courier New',monospace" font-size="15" fill="#38D6C2" letter-spacing="0.3">{esc(full_text)}
-      <animate attributeName="x" from="0" to="-{seg_width:.0f}" dur="{max(18, seg_width/45):.0f}s" repeatCount="indefinite"/>
-    </text>
-  </g>
-
-  <rect x="0" y="0" width="66" height="{H}" fill="#17112A" clip-path="url(#clip)"/>
-  <rect x="{W-70}" y="0" width="70" height="{H}" fill="url(#rfade)" clip-path="url(#clip)"/>
-  <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="#2c2444"/>
-
-  <circle cx="18" cy="{H/2}" r="4" fill="#8B5CF6">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  <circle cx="30" cy="26" r="4" fill="{TEAL}">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="30" y="{H/2+4}" font-family="'Segoe UI',sans-serif" font-size="10" fill="#6C6291" letter-spacing="1">LIVE</text>
-</svg>'''
-    return svg
+  <text x="42" y="30" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="{MUTED}">LIVE ACTIVITY</text>
+''']
+    for i, item in enumerate(items):
+        y = top_pad + i*row_h
+        color = TEAL if i % 2 == 0 else VIOLET
+        parts.append(f'<circle cx="30" cy="{y+6}" r="3.5" fill="{color}"/>')
+        parts.append(f'<text x="46" y="{y+11}" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="{TEXT}">{esc(item)}</text>')
+    parts.append("</svg>")
+    return "\n".join(parts)
 
 def main():
     try:
         events = fetch_events()
         items = humanize(events)
     except Exception:
-        items = ["\u25CF live feed temporarily unavailable"]
+        items = ["live feed temporarily unavailable"]
     svg = build_svg(items)
     os.makedirs("images", exist_ok=True)
     with open("images/ticker.svg", "w") as f:
