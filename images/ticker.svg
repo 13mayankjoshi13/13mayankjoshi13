@@ -1,10 +1,10 @@
-<svg width="900" height="168" viewBox="0 0 900 168" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#120E1E"/><stop offset="100%" stop-color="#1B1330"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="898" height="166" rx="18" fill="url(#bgGrad)" stroke="#2c2444"/>
+  <rect x="1" y="1" width="898" height="268" rx="18" fill="url(#bgGrad)" stroke="#2c2444"/>
 
   <circle cx="30" cy="26" r="4" fill="#38D6C2">
     <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
@@ -12,9 +12,15 @@
   <text x="42" y="30" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#9C90C4">LIVE ACTIVITY</text>
 
 <circle cx="30" cy="52" r="3.5" fill="#38D6C2"/>
-<text x="46" y="57" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred novatorem</text>
+<text x="46" y="57" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred langchain</text>
 <circle cx="30" cy="86" r="3.5" fill="#8B5CF6"/>
-<text x="46" y="91" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred OmniRoute</text>
+<text x="46" y="91" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred project-based-learning</text>
 <circle cx="30" cy="120" r="3.5" fill="#38D6C2"/>
-<text x="46" y="125" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred public-apis</text>
+<text x="46" y="125" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred opencode</text>
+<circle cx="30" cy="154" r="3.5" fill="#8B5CF6"/>
+<text x="46" y="159" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred hermes-agent</text>
+<circle cx="30" cy="188" r="3.5" fill="#38D6C2"/>
+<text x="46" y="193" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">pushed to 13mayankjoshi13</text>
+<circle cx="30" cy="222" r="3.5" fill="#8B5CF6"/>
+<text x="46" y="227" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#F1EAFB">starred novatorem</text>
 </svg>
