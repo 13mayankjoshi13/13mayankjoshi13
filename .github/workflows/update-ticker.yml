@@ -1,0 +1,28 @@
+name: Update Live Cards
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # refreshes every 3 hours
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate live activity ticker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python3 generate_ticker.py
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add images/ticker.svg
+          git diff --staged --quiet || git commit -m "update live activity ticker [skip ci]"
+          git push
