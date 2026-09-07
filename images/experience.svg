@@ -11,20 +11,20 @@
   <text x="32" y="34" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#F1EAFB">Experience</text>
   <line x1="50" y1="50" x2="50" y2="314" stroke="url(#accentGrad)" stroke-width="2"/>
 
-<circle cx="50" cy="50" r="8" fill="#38D6C2"><animate attributeName="r" values="6;10;6" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="50" cy="66" r="8" fill="#38D6C2"><animate attributeName="r" values="6;10;6" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="76" y="46" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#F1EAFB">Google Gemini Student Ambassador</text>
 <text x="76" y="66" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9C90C4">Google &#183; Aug 2025 — Present</text>
 <text x="860" y="54" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#38D6C2">ACTIVE</text>
-<circle cx="50" cy="116" r="6" fill="#8B5CF6"></circle>
+<circle cx="50" cy="132" r="6" fill="#8B5CF6"></circle>
 <text x="76" y="112" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#F1EAFB">Software Development Intern</text>
 <text x="76" y="132" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9C90C4">Ruhanix Solutions &#183; Jun 2026 — Aug 2026</text>
-<circle cx="50" cy="182" r="6" fill="#8B5CF6"></circle>
+<circle cx="50" cy="198" r="6" fill="#8B5CF6"></circle>
 <text x="76" y="178" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#F1EAFB">Intern</text>
 <text x="76" y="198" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9C90C4">Infosys Springboard &#183; Nov 2025 — Jan 2026</text>
-<circle cx="50" cy="248" r="6" fill="#8B5CF6"></circle>
+<circle cx="50" cy="264" r="6" fill="#8B5CF6"></circle>
 <text x="76" y="244" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#F1EAFB">Student Partner</text>
 <text x="76" y="264" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9C90C4">Internshala &#183; Jun 2025 — Aug 2025</text>
-<circle cx="50" cy="314" r="6" fill="#8B5CF6"></circle>
+<circle cx="50" cy="330" r="6" fill="#8B5CF6"></circle>
 <text x="76" y="310" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#F1EAFB">Internship Trainee</text>
 <text x="76" y="330" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9C90C4">YBI Foundation &#183; Feb 2025 — Mar 2025</text>
 </svg>
