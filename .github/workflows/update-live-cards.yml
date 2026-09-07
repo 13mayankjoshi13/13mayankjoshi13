@@ -1,0 +1,40 @@
+name: Update Live Cards
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes — the realistic floor GitHub actually honors
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate live activity ticker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python3 generate_ticker.py
+
+      - name: Generate commit pulse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python3 generate_pulse.py
+
+      - name: Generate coding streak
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python3 generate_streak.py
+
+      - name: Commit updated SVGs (only if something actually changed)
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add images/ticker.svg images/pulse.svg images/streak.svg
+          git diff --staged --quiet || git commit -m "update live cards [skip ci]"
+          git push
