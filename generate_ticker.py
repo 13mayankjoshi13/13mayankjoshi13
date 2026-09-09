@@ -7,9 +7,9 @@ import os, json, urllib.request
 USERNAME = os.environ.get("GH_USERNAME", "13mayankjoshi13")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
-BG1, BG2 = "#120E1E", "#1B1330"
-VIOLET, TEAL = "#8B5CF6", "#38D6C2"
-TEXT, MUTED, BORDER = "#F1EAFB", "#9C90C4", "#2c2444"
+BG1, BG2 = "#FFFBF5", "#FFF3E6"
+VIOLET, TEAL = "#FF9F7A", "#4FC7AA"
+TEXT, MUTED, BORDER = "#4A3B31", "#A89A8A", "#F0E1CF"
 
 def fetch_events():
     req = urllib.request.Request(

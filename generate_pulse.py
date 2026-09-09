@@ -67,9 +67,9 @@ def build_svg(counts):
         y = pad_t + (chart_h - h)
         t = i / max(1, n - 1)
         # gradient hue: violet -> teal across the bars
-        r = int(255 + (110 - 255) * t)
-        g = int(184 + (231 - 184) * t)
-        b = int(107 + (183 - 107) * t)
+        r = int(255 + (79 - 255) * t)
+        g = int(159 + (199 - 159) * t)
+        b = int(122 + (170 - 122) * t)
         color = f"rgb({r},{g},{b})"
         bars.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w:.1f}" height="{h:.1f}" rx="{bar_w/2:.1f}" fill="{color}"/>')
 
@@ -78,25 +78,25 @@ def build_svg(counts):
     svg = f'''<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#151125"/>
-      <stop offset="100%" stop-color="#211B36"/>
+      <stop offset="0%" stop-color="#FFFBF5"/>
+      <stop offset="100%" stop-color="#FFF3E6"/>
     </linearGradient>
     <linearGradient id="art" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFB86B"/>
-      <stop offset="100%" stop-color="#6EE7B7"/>
+      <stop offset="0%" stop-color="#FF9F7A"/>
+      <stop offset="100%" stop-color="#4FC7AA"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="url(#bg)" stroke="#3A2F52" stroke-width="1"/>
+  <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="url(#bg)" stroke="#F0E1CF" stroke-width="1"/>
 
   <rect x="24" y="24" width="{H-48}" height="{H-48}" rx="14" fill="url(#art)"/>
-  <text x="{24 + (H-48)/2}" y="{24 + (H-48)/2 + 8}" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="#151125" opacity="0.85">MJ</text>
+  <text x="{24 + (H-48)/2}" y="{24 + (H-48)/2 + 8}" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="#FFFBF5" opacity="0.85">MJ</text>
 
-  <text x="{H-24+16}" y="66" font-family="'Segoe UI', sans-serif" font-size="{title_size:.0f}" font-weight="700" fill="#F5EFE6">{esc(NOW_BUILDING)}</text>
-  <text x="{H-24+16}" y="92" font-family="'Segoe UI', sans-serif" font-size="14" fill="#A79BB8">Now Building &#183; Live Commit Pulse</text>
+  <text x="{H-24+16}" y="66" font-family="'Segoe UI', sans-serif" font-size="{title_size:.0f}" font-weight="700" fill="#4A3B31">{esc(NOW_BUILDING)}</text>
+  <text x="{H-24+16}" y="92" font-family="'Segoe UI', sans-serif" font-size="14" fill="#A89A8A">Now Building &#183; Live Commit Pulse</text>
 
   {''.join(bars)}
 
-  <text x="{W-40}" y="{H-16}" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="11" fill="#8A7FA3">{total} commits &#183; last {n} days</text>
+  <text x="{W-40}" y="{H-16}" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="11" fill="#B8AA9A">{total} commits &#183; last {n} days</text>
 </svg>'''
     return svg
 

@@ -30,6 +30,14 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=13mayankjoshi13&style=flat-square&color=FF9F7A&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
+
+<p align="center">
+  <img src="images/stats.svg" width="100%" alt="GitHub Stats" />
+</p>
+
+<p align="center">
   <img src="images/certifications.svg" width="100%" alt="Licenses & Certifications" />
 </p>
 
