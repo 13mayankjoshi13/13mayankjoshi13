@@ -12,7 +12,7 @@
   <rect x="1" y="1" width="898" height="218" rx="18" fill="url(#bg)" stroke="#F0E1CF" stroke-width="1"/>
 
   <clipPath id="avatarClip"><rect x="24" y="24" width="172" height="172" rx="14"/></clipPath>
-  <image href="profile.jpeg" x="24" y="24" width="172" height="172" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+  <image href="images/profile.jpeg" x="24" y="24" width="172" height="172" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
 
   <text x="212" y="66" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#4A3B31">Open to new opportunities</text>
   <text x="212" y="92" font-family="'Segoe UI', sans-serif" font-size="14" fill="#A89A8A">Now Building &#183; Live Commit Pulse</text>
