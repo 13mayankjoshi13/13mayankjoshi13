@@ -26,15 +26,13 @@
 </p>
 
 <p align="center">
-  <img src="images/achievements.svg" width="100%" alt="Achievements" />
+  <img src="images/techstack.svg" width="100%" alt="Tech Stack" />
 </p>
 
----
+<p align="center">
+  <img src="images/certifications.svg" width="100%" alt="Licenses & Certifications" />
+</p>
 
-### 📜 Licenses & Certifications
-
-- 5-Day AI Agents Intensive Course with Google — Kaggle (Dec 2025)
-- Microsoft AI Skill Fest — Microsoft (May 2025)
-- Microsoft Certified: Azure AI Fundamentals — Microsoft (Feb 2025)
-- Introduction to Modern AI — Cisco (Dec 2024)
-- Python Essentials — Cisco (Dec 2024)
+<p align="center">
+  <img src="images/achievements.svg" width="100%" alt="Achievements" />
+</p>
