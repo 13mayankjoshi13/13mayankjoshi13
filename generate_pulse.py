@@ -52,6 +52,27 @@ def esc(s):
 
 def build_svg(counts):
     W, H = 900, 220
+
+    # Use a real photo if one exists in the repo; fall back to the MJ monogram tile.
+    photo_path = None
+    for candidate in ("images/profile.jpg", "images/profile.jpeg", "images/profile.png"):
+        if os.path.exists(candidate):
+            photo_path = os.path.basename(candidate)  # pulse.svg lives in images/ too, so use a same-folder relative reference
+            break
+
+    if photo_path:
+        avatar_markup = (
+            f'<image href="{photo_path}" x="24" y="24" width="{H-48}" height="{H-48}" '
+            f'preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>'
+        )
+    else:
+        avatar_markup = (
+            f'<rect x="24" y="24" width="{H-48}" height="{H-48}" rx="14" fill="url(#art)"/>'
+            f'<text x="{24 + (H-48)/2}" y="{24 + (H-48)/2 + 8}" text-anchor="middle" '
+            f'font-family="\'Segoe UI\', sans-serif" font-size="34" font-weight="700" '
+            f'fill="#FFFBF5" opacity="0.85">MJ</text>'
+        )
+
     pad_l, pad_r, pad_t, pad_b = 340, 40, 60, 40
     chart_w = W - pad_l - pad_r
     chart_h = H - pad_t - pad_b
@@ -88,8 +109,8 @@ def build_svg(counts):
   </defs>
   <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="url(#bg)" stroke="#F0E1CF" stroke-width="1"/>
 
-  <rect x="24" y="24" width="{H-48}" height="{H-48}" rx="14" fill="url(#art)"/>
-  <text x="{24 + (H-48)/2}" y="{24 + (H-48)/2 + 8}" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="#FFFBF5" opacity="0.85">MJ</text>
+  <clipPath id="avatarClip"><rect x="24" y="24" width="{H-48}" height="{H-48}" rx="14"/></clipPath>
+  {avatar_markup}
 
   <text x="{H-24+16}" y="66" font-family="'Segoe UI', sans-serif" font-size="{title_size:.0f}" font-weight="700" fill="#4A3B31">{esc(NOW_BUILDING)}</text>
   <text x="{H-24+16}" y="92" font-family="'Segoe UI', sans-serif" font-size="14" fill="#A89A8A">Now Building &#183; Live Commit Pulse</text>
