@@ -62,7 +62,7 @@ def build_svg(counts):
 
     if photo_path:
         avatar_markup = (
-            f'<image href="{photo_path}" x="24" y="24" width="{H-48}" height="{H-48}" '
+            f'<image href="images/profile.jpeg" x="24" y="24" width="{H-48}" height="{H-48}" '
             f'preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>'
         )
     else:
