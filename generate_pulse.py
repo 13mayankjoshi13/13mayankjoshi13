@@ -50,6 +50,40 @@ def fetch_contributions():
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+def _embed_photo_as_avatar(photo_path, H):
+    """
+    Returns SVG markup for the avatar tile using a real photo, embedded as
+    inline base64 data (NOT an external href) -- this is required because
+    browsers block external resource loading inside an SVG that is itself
+    displayed via an <img> tag, which is exactly how GitHub renders these
+    cards. An external file reference would silently never load there.
+    """
+    import base64, io
+    size = H - 48
+    try:
+        from PIL import Image
+        img = Image.open(photo_path).convert("RGB")
+        w, h = img.size
+        side = min(w, h)
+        left, top = (w - side) // 2, (h - side) // 2
+        img = img.crop((left, top, left + side, top + side)).resize((240, 240))
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=82)
+        data = buf.getvalue()
+        mime = "image/jpeg"
+    except Exception as ex:
+        print(f"NOTE: Pillow not available or failed ({ex}); embedding photo unresized.")
+        with open(photo_path, "rb") as f:
+            data = f.read()
+        ext = photo_path.rsplit(".", 1)[-1].lower()
+        mime = "image/png" if ext == "png" else "image/jpeg"
+
+    b64 = base64.b64encode(data).decode()
+    return (
+        f'<image href="data:{mime};base64,{b64}" x="24" y="24" width="{size}" height="{size}" '
+        f'preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>'
+    )
+
 def build_svg(counts):
     W, H = 900, 220
 
@@ -57,14 +91,11 @@ def build_svg(counts):
     photo_path = None
     for candidate in ("images/profile.jpg", "images/profile.jpeg", "images/profile.png"):
         if os.path.exists(candidate):
-            photo_path = os.path.basename(candidate)  # pulse.svg lives in images/ too, so use a same-folder relative reference
+            photo_path = candidate
             break
 
     if photo_path:
-        avatar_markup = (
-            f'<image href="{photo_path}" x="24" y="24" width="{H-48}" height="{H-48}" '
-            f'preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>'
-        )
+        avatar_markup = _embed_photo_as_avatar(photo_path, H)
     else:
         avatar_markup = (
             f'<rect x="24" y="24" width="{H-48}" height="{H-48}" rx="14" fill="url(#art)"/>'
