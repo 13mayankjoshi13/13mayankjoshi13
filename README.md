@@ -18,6 +18,14 @@
 </p>
 
 <p align="center">
+  <img src="images/streak.svg" width="100%" alt="Coding Streak" />
+</p>
+
+<p align="center">
+  <img src="images/activity.svg" width="100%" alt="Activity Overview" />
+</p>
+
+<p align="center">
   <img src="images/experience.svg" width="100%" alt="Experience" />
 </p>
 
