@@ -89,7 +89,7 @@
 <rect x="844" y="76" width="16" height="16" rx="4" fill="rgb(246,161,124)"/>
 <rect x="844" y="96" width="16" height="16" rx="4" fill="rgb(114,191,160)"/>
 <rect x="844" y="116" width="16" height="16" rx="4" fill="rgb(202,171,136)"/>
-<rect x="844" y="136" width="16" height="16" rx="4" fill="rgb(246,161,124)"/>
+<rect x="844" y="136" width="16" height="16" rx="4" fill="#F5EDE3"/>
 <rect x="844" y="156" width="16" height="16" rx="4" fill="rgb(228,165,129)"/>
-<rect x="844" y="176" width="16" height="16" rx="4" fill="#F5EDE3"/>
+<rect x="844" y="176" width="16" height="16" rx="4" fill="rgb(246,161,124)"/>
 </svg>
