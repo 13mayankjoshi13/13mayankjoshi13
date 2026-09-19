@@ -1,10 +1,10 @@
-<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFBF5"/><stop offset="100%" stop-color="#FFF3E6"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="898" height="268" rx="18" fill="url(#bgGrad)" stroke="#F0E1CF"/>
+  <rect x="1" y="1" width="898" height="98" rx="18" fill="url(#bgGrad)" stroke="#F0E1CF"/>
 
   <circle cx="30" cy="26" r="4" fill="#4FC7AA">
     <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
@@ -12,15 +12,5 @@
   <text x="42" y="30" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#A89A8A">LIVE ACTIVITY</text>
 
 <circle cx="30" cy="52" r="3.5" fill="#4FC7AA"/>
-<text x="46" y="57" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">pushed to TQM</text>
-<circle cx="30" cy="86" r="3.5" fill="#FF9F7A"/>
-<text x="46" y="91" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">forked Depth-Wizard</text>
-<circle cx="30" cy="120" r="3.5" fill="#4FC7AA"/>
-<text x="46" y="125" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">starred Echo-Music</text>
-<circle cx="30" cy="154" r="3.5" fill="#FF9F7A"/>
-<text x="46" y="159" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">pushed to Cyber-Security-and-AI</text>
-<circle cx="30" cy="188" r="3.5" fill="#4FC7AA"/>
-<text x="46" y="193" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">pushed to IPL-2024-Data-Analytics-ML-DL-Model</text>
-<circle cx="30" cy="222" r="3.5" fill="#FF9F7A"/>
-<text x="46" y="227" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">pushed to gods-eye-view</text>
+<text x="46" y="57" font-family="Consolas, Courier New, monospace" font-size="13.5" fill="#4A3B31">live feed temporarily unavailable</text>
 </svg>
