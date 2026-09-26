@@ -17,7 +17,7 @@
   <text x="32" y="75" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="url(#accentGrad)">Sun</text>
   <text x="32" y="94" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#A89A8A">MOST ACTIVE DAY</text>
 
-  <text x="32" y="128" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4A3B31">12.9</text>
+  <text x="32" y="128" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4A3B31">13.0</text>
   <text x="32" y="144" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#A89A8A">AVG CONTRIBUTIONS / WEEK</text>
 
   <text x="220" y="75" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4A3B31">20</text>
@@ -91,5 +91,5 @@
 <rect x="844" y="116" width="16" height="16" rx="4" fill="#F5EDE3"/>
 <rect x="844" y="136" width="16" height="16" rx="4" fill="rgb(237,163,126)"/>
 <rect x="844" y="156" width="16" height="16" rx="4" fill="#F5EDE3"/>
-<rect x="844" y="176" width="16" height="16" rx="4" fill="#F5EDE3"/>
+<rect x="844" y="176" width="16" height="16" rx="4" fill="rgb(246,161,124)"/>
 </svg>
