@@ -15,7 +15,7 @@
   <text x="42" y="30" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#A89A8A">GITHUB STATS</text>
 <text x="112.5" y="76" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="url(#accentGrad)">20</text>
 <text x="112.5" y="95" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#A89A8A">PUBLIC REPOS</text>
-<text x="337.5" y="76" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="url(#accentGrad)">11</text>
+<text x="337.5" y="76" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="url(#accentGrad)">12</text>
 <text x="337.5" y="95" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#A89A8A">FOLLOWERS</text>
 <line x1="225.0" y1="48" x2="225.0" y2="98" stroke="#F0E1CF"/>
 <text x="562.5" y="76" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="url(#accentGrad)">0</text>
