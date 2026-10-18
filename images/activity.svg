@@ -14,10 +14,10 @@
   </circle>
   <text x="42" y="30" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#A89A8A">ACTIVITY OVERVIEW &#183; LAST 70 DAYS</text>
 
-  <text x="32" y="75" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="url(#accentGrad)">Mon</text>
+  <text x="32" y="75" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="url(#accentGrad)">Sun</text>
   <text x="32" y="94" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#A89A8A">MOST ACTIVE DAY</text>
 
-  <text x="32" y="128" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4A3B31">52.6</text>
+  <text x="32" y="128" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4A3B31">61.6</text>
   <text x="32" y="144" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#A89A8A">AVG CONTRIBUTIONS / WEEK</text>
 
   <text x="220" y="75" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4A3B31">102</text>
@@ -91,5 +91,5 @@
 <rect x="844" y="116" width="16" height="16" rx="4" fill="rgb(251,159,122)"/>
 <rect x="844" y="136" width="16" height="16" rx="4" fill="rgb(148,183,151)"/>
 <rect x="844" y="156" width="16" height="16" rx="4" fill="rgb(180,175,142)"/>
-<rect x="844" y="176" width="16" height="16" rx="4" fill="#F5EDE3"/>
+<rect x="844" y="176" width="16" height="16" rx="4" fill="rgb(99,194,164)"/>
 </svg>
